@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="dashboard">
+    <div class="user-card">
+      <div class="user-card__user-info">
+        <img class="user-card__img" src="./images/image-jeremy.png" alt="picture of Jeremy Robson" class="user-card__info-picture">
+        <div class="user-card__info">
+          <span class="user-card__label">Report for</span>
+          <span class="user-card__name">Jeremy Robson</span> 
+        </div>
+      </div>
+      <div class="user-card__menu">
+        <button class="user-card__btn" data-type="daily">Daily</button>
+        <button class="user-card__btn" data-type="weekly">Weekly</button>
+        <button class="user-card__btn" data-type="monthly">Monthly</button>
+      </div>
+    </div>
+    <div class="activity">
+      <!-- <img src="./images/icon-work.svg" alt="" class="activity__icon"> -->
+      <div class="activity-info">
+        <div class="activity-info__header">
+          <span class="activity-info__name">Work</span>
+          <button class="activity-btn">
+            <img src="./images/icon-ellipsis.svg" alt="">
+          </button>
+        </div>
+        <div class="activity-info__data">
+          <span class="activity__time">32hrs</span>
+          <span class="activity__last-week">Last week - 5rhs</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
